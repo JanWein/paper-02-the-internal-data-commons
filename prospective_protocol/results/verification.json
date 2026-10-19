@@ -1,0 +1,36 @@
+{
+  "synthetic_only": true,
+  "seed": 20261017,
+  "random_parameter_checks": 10000,
+  "max_welfare_derivative_absolute_error": 1.2037276064802427e-08,
+  "exact_assignments": 4096,
+  "exposure_means": [
+    {
+      "own_arm": 0,
+      "exposure": 0,
+      "HT_expectation": 0.25000000000000316,
+      "truth": 0.25
+    },
+    {
+      "own_arm": 0,
+      "exposure": 1,
+      "HT_expectation": 0.5000000000000007,
+      "truth": 0.5
+    },
+    {
+      "own_arm": 3,
+      "exposure": 0,
+      "HT_expectation": 0.9000000000000205,
+      "truth": 0.9
+    },
+    {
+      "own_arm": 3,
+      "exposure": 1,
+      "HT_expectation": 1.1500000000000077,
+      "truth": 1.1500000000000001
+    }
+  ],
+  "general_convex_checks": 1000,
+  "general_convex_max_quantity_cross_error": 3.461037453855731e-08,
+  "general_convex_max_welfare_cross_error": 7.57099662962446e-07
+}

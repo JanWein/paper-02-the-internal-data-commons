@@ -1,0 +1,16 @@
+scenario,T,alpha,B,D,H,q,welfare
+complements,0,0.4,10.0,1.0,4.0,0.75,5.625
+complements,0,0.7,10.0,1.0,4.0,1.5,9.0
+complements,1,0.4,12.0,1.2,4.4,0.8181818181818182,7.363636363636365
+complements,1,0.7,12.0,1.2,4.4,1.6363636363636358,11.781818181818181
+complements,interaction,,,,,0.06818181818181757,1.0431818181818162
+quantity_substitute_welfare_complement,0,0.4,10.0,1.0,4.0,0.75,5.625
+quantity_substitute_welfare_complement,0,0.7,10.0,1.0,4.0,1.5,9.0
+quantity_substitute_welfare_complement,1,0.4,12.0,1.2,5.2,0.6923076923076924,6.230769230769232
+quantity_substitute_welfare_complement,1,0.7,12.0,1.2,5.2,1.3846153846153844,9.96923076923077
+quantity_substitute_welfare_complement,interaction,,,,,-0.05769230769230804,0.3634615384615376
+substitutes,0,0.4,10.0,1.0,4.0,0.75,5.625
+substitutes,0,0.7,10.0,1.0,4.0,1.5,9.0
+substitutes,1,0.4,12.0,1.2,7.0,0.5142857142857143,4.628571428571429
+substitutes,1,0.7,12.0,1.2,7.0,1.0285714285714282,7.405714285714284
+substitutes,interaction,,,,,-0.2357142857142861,-0.5978571428571451

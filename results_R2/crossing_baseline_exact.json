@@ -1,0 +1,78 @@
+{
+  "synthetic_only": true,
+  "exact": {
+    "y0": [
+      "80/23",
+      "0"
+    ],
+    "G0": "160/23",
+    "unconstrained_y0": [
+      "71/20",
+      "-11/20"
+    ],
+    "unconstrained_G0": "2851/400",
+    "y": [
+      "5395/849",
+      "95/849"
+    ],
+    "z": [
+      "2707/849",
+      "385/566"
+    ],
+    "load": "1830/283",
+    "G": "33636065/1441602",
+    "branch_constant": "1573/9200",
+    "branch_polynomial": "4672209349/288320400",
+    "actual_score": "542973175/33156846",
+    "production_cost": "30645421/2883204",
+    "wrong_rent": "1893601/339600",
+    "actual_rent": "448883/78108",
+    "support_cost": "502335/160178",
+    "support_revenue": "502335/80089",
+    "Gamma": "502335/160178",
+    "wrong_fixed_fee_deficit": "3768006349/288320400",
+    "actual_fixed_fee_deficit": "219494915/16578423",
+    "fixed_fee_required_reserve": "219494915/16578423",
+    "wrong_max_weak_IR_fee": "1893601/339600",
+    "actual_max_weak_IR_fee": "448883/78108",
+    "max_fee_required_reserve": "21603391/2883204",
+    "wrong_max_fee_required_reserve": "21603391/2883204"
+  },
+  "decimals": {
+    "G0": 6.956521739130435,
+    "unconstrained_G0": 7.1275,
+    "load": 6.46643109540636,
+    "G": 23.332421153688742,
+    "branch_constant": 0.17097826086956522,
+    "branch_polynomial": 16.204921153688744,
+    "actual_score": 16.375899414558308,
+    "production_cost": 10.628946477599227,
+    "wrong_rent": 5.575974676089517,
+    "actual_rent": 5.746952936959082,
+    "support_cost": 3.1361048333728725,
+    "support_revenue": 6.272209666745745,
+    "Gamma": 3.1361048333728725,
+    "wrong_fixed_fee_deficit": 13.068816320315872,
+    "actual_fixed_fee_deficit": 13.239794581185436,
+    "fixed_fee_required_reserve": 13.239794581185436,
+    "wrong_max_weak_IR_fee": 5.575974676089517,
+    "actual_max_weak_IR_fee": 5.746952936959082,
+    "max_fee_required_reserve": 7.4928416442263535,
+    "wrong_max_fee_required_reserve": 7.4928416442263535
+  },
+  "checks": {
+    "all_supplied_fractions_independently_derived": true,
+    "baseline_KKT": true,
+    "optimal_KKT": true,
+    "assumption_A": true,
+    "score_matches_active_set_implementation": true,
+    "old_R1_numerical_files_byte_identical": true
+  },
+  "preserved_R1_sha256": {
+    "opening.csv": "1ff69655631d3b0e01a1b670ba81347fc3d1be3cdb4c746eab59363b7a3de558",
+    "private_cost.csv": "464f4620de2c2c2427b77714d26543cca0f18cbf87101647d438fd80f011a6e0",
+    "financing_certificate.json": "ef0991e3c2ee8e513f774dbecf2d3828f5c00e2864b37a8a7ea883cbf77858cf",
+    "endogenous_interaction.csv": "88254784da8d09aad5c1118a784f59d600897419e138d468268b25221f2a3c26",
+    "exact_interaction.json": "17ecaa2df458f6341ab5e384b589eeaf9dc6ef12a0c69cf2ef29c58115060bb3"
+  }
+}

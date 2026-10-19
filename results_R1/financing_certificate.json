@@ -1,0 +1,65 @@
+{
+  "beta_star": 0.5370860743187746,
+  "fee": 0.16273178575975306,
+  "B_private_at_full": 3.5326121936512234,
+  "B_known_at_full": 2.246910034808499,
+  "constraints": [
+    {
+      "paying_type": 1,
+      "participation_type": 1,
+      "numerator": "2093800*b**4 - 18591500*b**3 + 40523875*b**2 + 7425000*b - 16875000",
+      "denominator": "(722*b**2 - 4675*b + 6500)**2",
+      "roots_in_0_1": [
+        0.6412103514309373
+      ]
+    },
+    {
+      "paying_type": 1,
+      "participation_type": 2,
+      "numerator": "1511723600*b**6 - 31461601250*b**5 + 230603009500*b**4 - 712359175000*b**3 + 754720687500*b**2 + 175415625000*b - 219375000000",
+      "denominator": "(361*b**2 - 4675*b + 13000)*(722*b**2 - 4675*b + 6500)**2",
+      "roots_in_0_1": [
+        0.5370860743185044
+      ]
+    },
+    {
+      "paying_type": 2,
+      "participation_type": 1,
+      "numerator": "377930900*b**6 - 8389414375*b**5 + 59106169000*b**4 - 118305040625*b**3 - 123467625000*b**2 + 412087500000*b - 438750000000",
+      "denominator": "(361*b**2 - 4675*b + 13000)**2*(722*b**2 - 4675*b + 6500)",
+      "roots_in_0_1": []
+    },
+    {
+      "paying_type": 2,
+      "participation_type": 2,
+      "numerator": "1046900*b**4 - 18591500*b**3 + 81864500*b**2 + 14850000*b - 67500000",
+      "denominator": "(361*b**2 - 4675*b + 13000)**2",
+      "roots_in_0_1": [
+        0.90574507303663
+      ]
+    }
+  ],
+  "intervals": [
+    {
+      "lower": 0.0,
+      "upper": 0.5370860743185044,
+      "feasible": true
+    },
+    {
+      "lower": 0.5370860743185044,
+      "upper": 0.6412103514309373,
+      "feasible": false
+    },
+    {
+      "lower": 0.6412103514309373,
+      "upper": 0.90574507303663,
+      "feasible": false
+    },
+    {
+      "lower": 0.90574507303663,
+      "upper": 1.0,
+      "feasible": false
+    }
+  ],
+  "assumptions": "Example 2 has all uses positive and slack capacity over beta in [0,1]; denominators nonzero by positive definiteness. Roots isolated with exact rational polynomial coefficients."
+}
